@@ -23,7 +23,8 @@ jobs:
   - checkout: self
   - task: CmdLine@2
     displayName: Clean Output
-    continueOnError: true 
+    continueOnError: true
+    enabled: false 
     inputs:
       script: >-
         rmdir $(System.DefaultWorkingDirectory)\output /s /q
@@ -53,7 +54,7 @@ jobs:
       script: >-
         xcopy /Y $(System.DefaultWorkingDirectory)\output\*.channels.xml E:\ZASTITA\epg\output
 
-        xcopy /Y $(System.DefaultWorkingDirectory)\output\*.zip E:\ZASTITA\epg\output
+        xcopy /Y $(System.DefaultWorkingDirectory)\output\*.gz E:\ZASTITA\epg\output
   - task: CmdLine@2
     displayName: Publish result
     continueOnError: false  # 'true' if future steps should run even if this step fails; defaults to 'false'
