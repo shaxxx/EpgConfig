@@ -1,0 +1,60 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+  paths:
+    exclude:
+    - $/output
+  batch: True
+name: $(date:yyyyMMdd)$(rev:.r)
+resources:
+  repositories:
+  - repository: self
+    type: git
+    ref: $/
+jobs:
+- job: Job_1
+  displayName: Agent job 1
+  pool:
+    name: Default
+  steps:
+  - checkout: self
+  - task: CmdLine@2
+    displayName: Clean Output
+    inputs:
+      script: >-
+        rmdir $(System.DefaultWorkingDirectory)\output /s /q
+  - task: CmdLine@2
+    displayName: Run ConfigMaker
+    timeoutInMinutes: 60
+    inputs:
+      script: >-
+        $(System.DefaultWorkingDirectory)\ConfigMaker.exe /runall /compress /channelsmap
+  - task: CmdLine@2
+    displayName: Copy output
+    continueOnError: false
+    inputs:
+      script: >-
+        xcopy /Y $(System.DefaultWorkingDirectory)\output\*.channels.xml E:\ZASTITA\epg\output
+
+        xcopy /Y $(System.DefaultWorkingDirectory)\output\*.zip E:\ZASTITA\epg\output
+  - task: CmdLine@2
+    displayName: Publish result
+    continueOnError: false  # 'true' if future steps should run even if this step fails; defaults to 'false'
+    enabled: true          # whether or not to run this step; defaults to 'true'
+    timeoutInMinutes: 1  # how long to wait before timing out the task
+    inputs:
+      script: >-
+        E:
+
+        cd E:\ZASTITA\epg\
+
+        git add output\*
+
+        git commit -m "Epg update" 
+
+        git push -u origin main
+
+...

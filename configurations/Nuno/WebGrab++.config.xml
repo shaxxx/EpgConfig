@@ -1,0 +1,12 @@
+﻿<settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <filename>..\..\output\nuno.xml</filename>
+  <mode>n</mode>
+  <postprocess grab="y" run="n">rex</postprocess>
+  <user-agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 Edg/79.0.309.71</user-agent>
+  <logging>on</logging>
+  <retry channel-delay="0" index-delay="0" show-delay="0" time-out="5">4</retry>
+  <timespan>5</timespan>
+  <update>full</update>
+  <skip>12,0</skip>
+  <channel update="i" site="mts.rs.E" site_id="653##335" xmltv_id="A1">A1 TV Montenegro</channel>
+</settings>

@@ -1,0 +1,3 @@
+ConfigMaker.log
+output/*
+!output/*channels.xml
