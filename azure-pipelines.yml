@@ -25,7 +25,7 @@ jobs:
     displayName: Clean Output
     inputs:
       script: >-
-        rmdir $(System.DefaultWorkingDirectory)\output /s /q
+        if exists $(System.DefaultWorkingDirectory)\output rmdir $(System.DefaultWorkingDirectory)\output /s /q
   - task: CmdLine@2
     displayName: Run ConfigMaker
     timeoutInMinutes: 60
