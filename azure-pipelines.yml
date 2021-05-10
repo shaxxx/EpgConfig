@@ -33,6 +33,19 @@ jobs:
       script: >-
         $(System.DefaultWorkingDirectory)\ConfigMaker.exe /runall /compress /channelsmap
   - task: CmdLine@2
+    displayName: Pull changes
+    continueOnError: false 
+    enabled: true  
+    timeoutInMinutes: 1  
+    inputs:
+      script: >-
+        E:
+
+        cd E:\ZASTITA\epg\
+
+        git pull
+      
+  - task: CmdLine@2
     displayName: Copy output
     continueOnError: false
     inputs:
