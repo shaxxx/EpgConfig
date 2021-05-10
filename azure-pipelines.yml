@@ -33,7 +33,7 @@ jobs:
     timeoutInMinutes: 60
     inputs:
       script: >-
-        $(System.DefaultWorkingDirectory)\ConfigMaker.exe /runall /compress /channelsmap
+        $(System.DefaultWorkingDirectory)\ConfigMaker.exe /runall /compress /channelsmap /gzip
   - task: CmdLine@2
     displayName: Pull changes
     continueOnError: false 
