@@ -23,9 +23,10 @@ jobs:
   - checkout: self
   - task: CmdLine@2
     displayName: Clean Output
+    continueOnError: true 
     inputs:
       script: >-
-        rmdir $(System.DefaultWorkingDirectory)\output /s /q 2>nul
+        rmdir $(System.DefaultWorkingDirectory)\output /s /q
   - task: CmdLine@2
     displayName: Run ConfigMaker
     timeoutInMinutes: 60
