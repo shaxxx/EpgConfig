@@ -3,6 +3,12 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
+schedules:
+- cron: "0 2 * * *"
+  displayName: Daily grab
+  branches:
+    include:
+    - main
 trigger:
   paths:
     exclude:
