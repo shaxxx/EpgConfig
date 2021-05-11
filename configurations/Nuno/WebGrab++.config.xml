@@ -5,9 +5,12 @@
   <user-agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 Edg/79.0.309.71</user-agent>
   <logging>on</logging>
   <retry channel-delay="0" index-delay="0" show-delay="0" time-out="5">4</retry>
+  <proxy />
   <timespan>5</timespan>
   <update>full</update>
   <skip>12,0</skip>
+  <channel update="i" site="mts.rs.E" site_id="264##624" xmltv_id="24Kitchen (SR)">24Kitchen</channel>
+  <channel update="i" site="a1.hr" site_id="903##24kitchen/8767-9-cro-HR/24kitchen.png" xmltv_id="24KITCHEN (HR)">24KITCHEN</channel>
   <channel update="i" site="mts.rs.E" site_id="653##335" xmltv_id="A1">A1 TV Montenegro</channel>
   <channel update="i" site="mtel.ba" site_id="147##501" xmltv_id="Agro TV">Agro TV</channel>
   <channel update="i" site="mtel.ba" site_id="228##057" xmltv_id="AL Jazeera Balkans">AL Jazeera Balkans HD</channel>
@@ -17,9 +20,13 @@
   <channel update="i" site="mts.rs.E" site_id="352##125" xmltv_id="Animal Planet (SR)">Animal Planet</channel>
   <channel update="i" site="mojtv.hr" site_id="346/animal-planet-hd" xmltv_id="Animal Planet (HR)">Animal Planet HD</channel>
   <channel update="i" site="mts.rs.E" site_id="149##72" xmltv_id="Arena Sport 1 (SR)">Arena Sport 1 </channel>
+  <channel update="i" site="tvarenasport.com" site_id="BIH_380" xmltv_id="Arena Sport 1 (BH)">ARENA SPORT 1 (Bosnia–Herzegovina)</channel>
   <channel update="i" site="mts.rs.E" site_id="150##54" xmltv_id="Arena Sport 2 (SR)">Arena Sport 2 </channel>
+  <channel update="i" site="tvarenasport.com" site_id="BIH_381" xmltv_id="Arena Sport 2 (BH)">ARENA SPORT 2 (Bosnia–Herzegovina)</channel>
   <channel update="i" site="mts.rs.E" site_id="151##55" xmltv_id="Arena Sport 3 (SR)">Arena Sport 3 </channel>
+  <channel update="i" site="tvarenasport.com" site_id="BIH_382" xmltv_id="Arena Sport 3 (BH)">ARENA SPORT 3 (Bosnia–Herzegovina)</channel>
   <channel update="i" site="mts.rs.E" site_id="152##56" xmltv_id="Arena Sport 4 (SR)">Arena Sport 4 </channel>
+  <channel update="i" site="tvarenasport.com" site_id="BIH_383" xmltv_id="Arena Sport 4 (BH)">ARENA SPORT 4 (Bosnia–Herzegovina)</channel>
   <channel update="i" site="mts.rs.E" site_id="153##267" xmltv_id="Arena Sport 5 (SR)">Arena Sport 5 </channel>
   <channel update="i" site="maxtv.hr" site_id="444" xmltv_id="Arena Sport 1 (HR)">Arenasport 1</channel>
   <channel update="i" site="maxtv.hr" site_id="453" xmltv_id="Arena Sport 2 (HR)">Arenasport 2</channel>
@@ -27,15 +34,18 @@
   <channel update="i" site="maxtv.hr" site_id="445" xmltv_id="Arena Sport 4 (HR)">Arenasport 4</channel>
   <channel update="i" site="maxtv.hr" site_id="449" xmltv_id="Arena Sport 5 (HR)">Arenasport 5</channel>
   <channel update="i" site="maxtv.hr" site_id="207" xmltv_id="Arena Sport 6 (HR)">Arenasport 6 </channel>
+  <channel update="i" site="a1.hr" site_id="6774##axn/63680-1-cro-HR/axn.png" xmltv_id="AXN (HR)">AXN</channel>
   <channel update="i" site="mts.rs.E" site_id="221##110" xmltv_id="AXN (SR)">AXN</channel>
   <channel update="i" site="mts.rs.E" site_id="222##112" xmltv_id="AXN Spin (SR)">AXN Spin</channel>
   <channel update="i" site="mtel.ba" site_id="359##030" xmltv_id="B92">B92</channel>
+  <channel update="i" site="maxtv.hr" site_id="164" xmltv_id="Baby TV">Baby TV</channel>
   <channel update="i" site="mts.rs.E" site_id="351##342" xmltv_id="BBC Earth (SR)">BBC Earth</channel>
   <channel update="i" site="maxtv.hr" site_id="632" xmltv_id="BBC Earth (HR)">BBC Earth HD</channel>
   <channel update="i" site="mtel.ba" site_id="15##56" xmltv_id="BHT 1">BHT</channel>
   <channel update="i" site="mts.rs.E" site_id="772##716" xmltv_id="BN Sat">BN 2 HD</channel>
   <channel update="i" site="mtel.ba" site_id="192##028" xmltv_id="BN Music">BN Music</channel>
   <channel update="i" site="mtel.ba" site_id="12##002" xmltv_id="BN">BN TV</channel>
+  <channel update="i" site="a1.hr" site_id="921##boomerang/9058-7-cro-HR/boomerang.png" xmltv_id="Boomerang">BOOMERANG</channel>
   <channel update="i" site="maxtv.hr" site_id="435" xmltv_id="CBS Reality (HR)">CBS Reality</channel>
   <channel update="i" site="mts.rs.E" site_id="362##284" xmltv_id="CBS Reality (SR)">CBS Reality</channel>
   <channel update="i" site="maxtv.hr" site_id="399" xmltv_id="Cinemax">Cinemax </channel>
@@ -66,8 +76,10 @@
   <channel update="i" site="mtel.ba" site_id="445##120" xmltv_id="DTX">DTX</channel>
   <channel update="i" site="maxtv.hr" site_id="638" xmltv_id="Epic Drama (HR)">Epic Drama</channel>
   <channel update="i" site="mts.rs.E" site_id="250##389" xmltv_id="Epic Drama (SR)">Epic Drama</channel>
-  <channel update="i" site="epg.sbb.rs" site_id="84##/2020/05/28/12/34/22/eurosport1hd_logo_16_9_light_300x168_51cafe3e_703b_4a96_b58b_153bcba02c44.png" xmltv_id="Eurosport 1">Eurosport 1 HD</channel>
-  <channel update="i" site="epg.sbb.rs" site_id="85##/2020/05/28/12/34/37/eurosport2hd_logo_16_9_light_300x168_d3a6d13e_e7cf_4e87_85d4_33521e1950cd.png" xmltv_id="Eurosport 2">Eurosport 2 HD</channel>
+  <channel update="i" site="mojtv.hr" site_id="50/eurosport" xmltv_id="Eurosport 1 (HR)">Eurosport</channel>
+  <channel update="i" site="epg.sbb.rs" site_id="84##/2020/05/28/12/34/22/eurosport1hd_logo_16_9_light_300x168_51cafe3e_703b_4a96_b58b_153bcba02c44.png" xmltv_id="Eurosport 1 (SR)">Eurosport 1 HD</channel>
+  <channel update="i" site="mojtv.hr" site_id="51/eurosport-2" xmltv_id="Eurosport 2 (HR)">Eurosport 2</channel>
+  <channel update="i" site="epg.sbb.rs" site_id="85##/2020/05/28/12/34/37/eurosport2hd_logo_16_9_light_300x168_d3a6d13e_e7cf_4e87_85d4_33521e1950cd.png" xmltv_id="Eurosport 2 (SR)">Eurosport 2 HD</channel>
   <channel update="i" site="epg.telemach.ba" site_id="471##/2020/05/28/12/34/53/facehd_logo_16_9_light_480x270_35e017c9_1433_4133_98c7_2fc369435ade.png" xmltv_id="Face">Face HD</channel>
   <channel update="i" site="maxtv.hr" site_id="326" xmltv_id="Fashion">Fashion TV</channel>
   <channel update="i" site="epg.telemach.ba" site_id="33##/2020/05/28/12/35/02/federalnatv_logo_16_9_light_288x162_9daeac34_d024_4427_b698_d5d631711030.png" xmltv_id="Federalna TV">Federalna TV</channel>
@@ -83,6 +95,7 @@
   <channel update="i" site="mts.rs.E" site_id="707##618" xmltv_id="Fox Movies (SR)">Fox Movies HD</channel>
   <channel update="i" site="mts.rs.E" site_id="107##6" xmltv_id="Happy">Happy TV</channel>
   <channel update="i" site="mtel.ba" site_id="35##155" xmltv_id="Hayat">HAYAT TV</channel>
+  <channel update="i" site="epg.telemach.ba" site_id="494##/2020/05/28/12/38/40/hayatovci_logo_16_9_light_300x168_1be3674d_47ab_4d71_a3d6_1645f8f2fdf5.png" xmltv_id="Hayatovci">Hayatovci</channel>
   <channel update="i" site="maxtv.hr" site_id="440" xmltv_id="HBO (HR)">HBO</channel>
   <channel update="i" site="maxtv.hr" site_id="397" xmltv_id="HBO 2 (HR)">HBO 2</channel>
   <channel update="i" site="mts.rs.E" site_id="236##102" xmltv_id="HBO 2 (SR)">HBO 2 HD </channel>
@@ -104,11 +117,14 @@
   <channel update="i" site="mtel.ba" site_id="210##148" xmltv_id="K:CN 3">K:CN 3</channel>
   <channel update="i" site="mtel.ba" site_id="411##019" xmltv_id="K1">K1</channel>
   <channel update="i" site="mtel.ba" site_id="421##008" xmltv_id="Kurir TV">Kurir TV</channel>
+  <channel update="i" site="hteronet.ba" site_id="14/167" xmltv_id="Laudato TV">Laudato TV</channel>
+  <channel update="i" site="a1.hr" site_id="145##lov_i_ribolov/1063-7-cro-HR/lov_i_ribolov.png" xmltv_id="Lov i Ribolov">LOV I RIBOLOV</channel>
   <channel update="i" site="mtel.ba" site_id="89##205" xmltv_id="Minimax">Minimax</channel>
   <channel update="i" site="mtel.ba" site_id="226##604" xmltv_id="MTV 80s">MTV 80’s</channel>
   <channel update="i" site="mts.rs.E" site_id="476##294" xmltv_id="MTV 90s">MTV 90s</channel>
   <channel update="i" site="mtel.ba" site_id="334##165" xmltv_id="MTV">MTV Europe</channel>
   <channel update="i" site="mtel.ba" site_id="168##601" xmltv_id="MTV Hits">MTV Hits International</channel>
+  <channel update="i" site="epg.telemach.ba" site_id="486##/2020/05/28/12/45/30/mtvigman_logo_16_9_light_300x168_b6d36dab_0961_432c_a9e1_8af5c2f7ebde.png" xmltv_id="MTV Igman">MTV Igman</channel>
   <channel update="i" site="epg.sbb.rs" site_id="141##/2020/05/28/12/45/35/mtvlivehd_logo_16_9_light_300x168_dd9453e3_c599_47e5_9523_a06c799f006d.png" xmltv_id="MTV Live">MTV Live HD</channel>
   <channel update="i" site="maxtv.hr" site_id="205" xmltv_id="N1 (HR)">N1</channel>
   <channel update="i" site="epg.telemach.ba" site_id="199##/2020/05/28/12/45/57/n1hd_logo_16_9_light_288x162_84fb0b9b_7959_4b02_b428_e5089d65f066.png" xmltv_id="N1 (BH)">N1 HD (BH)</channel>
@@ -118,6 +134,7 @@
   <channel update="i" site="mts.rs.E" site_id="353##119" xmltv_id="National Geographic (SR)">National Geographic</channel>
   <channel update="i" site="mts.rs.E" site_id="354##121" xmltv_id="National Geographic Wild (SR)">National Geographic Wild</channel>
   <channel update="i" site="epg.sbb.rs" site_id="94##/2017/09/01/15/09/46/stb_fhd_nick_jr_480x270.png" xmltv_id="Nick Junior">Nick Jr.</channel>
+  <channel update="i" site="a1.hr" site_id="100##nick_jr/565-8-cro-HR/nick_jr.png" xmltv_id="Nick Jr. (HR)">NICK JR.</channel>
   <channel update="i" site="mtel.ba" site_id="94##208" xmltv_id="Nickelodeon">Nickelodeon</channel>
   <channel update="i" site="epg.sbb.rs" site_id="46##/2020/07/14/11/02/12/stb_fhd_light_480x270.png" xmltv_id="Nicktoons">Nicktoons (SR)</channel>
   <channel update="i" site="siol.net" site_id="nova24tv" xmltv_id="Nova 24 TV">Nova 24 TV</channel>
@@ -141,7 +158,9 @@
   <channel update="i" site="mtel.ba" site_id="180##614" xmltv_id="Pink Hits">PINK HITS</channel>
   <channel update="i" site="mts.rs.E" site_id="472##185" xmltv_id="Pink Hits 2">Pink Hits 2</channel>
   <channel update="i" site="mtel.ba" site_id="159##324" xmltv_id="Pink Horror">Pink Horror</channel>
+  <channel update="i" site="mtel.ba" site_id="92##207" xmltv_id="Pink Kids">Pink Kids</channel>
   <channel update="i" site="mtel.ba" site_id="178##613" xmltv_id="Pink Koncert">PINK KONCERT</channel>
+  <channel update="i" site="mtel.ba" site_id="155##506" xmltv_id="Pink Kuvar">Pink Kuvar</channel>
   <channel update="i" site="mts.rs.E" site_id="651##550" xmltv_id="Pink M">Pink Montenegro</channel>
   <channel update="i" site="mtel.ba" site_id="145##317" xmltv_id="Pink Movies">Pink Movies</channel>
   <channel update="i" site="mtel.ba" site_id="142##416" xmltv_id="Pink Pedia">PINK PEDIA</channel>
@@ -152,6 +171,7 @@
   <channel update="i" site="mtel.ba" site_id="149##063" xmltv_id="Pink Sci-Fi Fantasy">Pink Sci-Fi &amp; Fantasy</channel>
   <channel update="i" site="mtel.ba" site_id="161##322" xmltv_id="Pink Soap">Pink Soap</channel>
   <channel update="i" site="mtel.ba" site_id="150##503" xmltv_id="Pink Style">Pink Style</channel>
+  <channel update="i" site="mtel.ba" site_id="91##045" xmltv_id="Pink Super Kids">Pink Super Kids</channel>
   <channel update="i" site="mtel.ba" site_id="133##313" xmltv_id="Pink Thriller">Pink Thriller</channel>
   <channel update="i" site="mtel.ba" site_id="154##323" xmltv_id="Pink Western">Pink Western</channel>
   <channel update="i" site="mtel.ba" site_id="215##657" xmltv_id="Pink World">PINK WORLD</channel>
@@ -159,12 +179,20 @@
   <channel update="i" site="mts.rs.E" site_id="279##214" xmltv_id="Pink Zabava">Pink Zabava</channel>
   <channel update="i" site="plus.rtrs.tv" site_id="plus_rtrs" xmltv_id="RTRS Plus">Plus RTRS</channel>
   <channel update="i" site="mtel.ba" site_id="358##005" xmltv_id="Prva">Prva</channel>
+  <channel update="i" site="mts.rs.E" site_id="652##551" xmltv_id="Prva CG">Prva CG</channel>
+  <channel update="i" site="mts.rs.E" site_id="262##318" xmltv_id="Prva Kick">Prva Kick</channel>
+  <channel update="i" site="mts.rs.E" site_id="114##302" xmltv_id="Prva MAX">Prva MAX</channel>
+  <channel update="i" site="epg.sbb.rs" site_id="7##/2020/05/28/12/56/08/prvaplus_logo_16_9_light_300x168_0e7641ec_924c_43f5_b100_6656673ad53a.png" xmltv_id="Prva plus">Prva plus</channel>
+  <channel update="i" site="mts.rs.E" site_id="263##319" xmltv_id="Prva World">Prva World</channel>
   <channel update="i" site="mtel.ba" site_id="430##016" xmltv_id="Red TV">Red TV</channel>
   <channel update="i" site="maxtv.hr" site_id="275" xmltv_id="RT">RT</channel>
   <channel update="i" site="mts.rs.E" site_id="650##549" xmltv_id="RTCG Sat">RTCG Sat</channel>
+  <channel update="i" site="mojtv.hr" site_id="173/rtcg1" xmltv_id="RTCG1">RTCG1</channel>
+  <channel update="i" site="mojtv.hr" site_id="174/rtcg2" xmltv_id="RTCG2">RTCG2</channel>
   <channel update="i" site="maxtv.hr" site_id="454" xmltv_id="RTL">RTL</channel>
   <channel update="i" site="maxtv.hr" site_id="455" xmltv_id="RTL 2">RTL 2</channel>
   <channel update="i" site="maxtv.hr" site_id="342" xmltv_id="RTL Crime">RTL Crime</channel>
+  <channel update="i" site="a1.hr" site_id="7408##rtl_kockica2/72735-1-cro-HR/rtl_kockica.png" xmltv_id="RTL Kockica">RTL Kockica</channel>
   <channel update="i" site="maxtv.hr" site_id="187" xmltv_id="RTL Living">RTL Living</channel>
   <channel update="i" site="maxtv.hr" site_id="738" xmltv_id="RTL Passion">RTL Passion HD</channel>
   <channel update="i" site="mtel.ba" site_id="11##001" xmltv_id="RTRS">RTRS</channel>
@@ -172,8 +200,11 @@
   <channel update="i" site="rts.rs" site_id="21/rts-2" xmltv_id="RTS 2">RTS 2</channel>
   <channel update="i" site="rts.rs" site_id="255/rts-3" xmltv_id="RTS 3">RTS 3</channel>
   <channel update="i" site="rts.rs" site_id="2706/rts-muzika" xmltv_id="RTS Muzika">RTS Muzika</channel>
-  <channel update="i" site="mtel.ba" site_id="385##108" xmltv_id="RTV 2">RTV 2</channel>
+  <channel update="i" site="epg.sbb.rs" site_id="14##/2020/05/28/12/59/00/rtv1_logo_16_9_light_480x270_f1296e13_775b_465e_b36f_b56b286520a7.png" xmltv_id="RTV 1">RTV 1</channel>
+  <channel update="i" site="epg.sbb.rs" site_id="15##/2020/05/28/12/59/07/rtv2_logo_16_9_light_384x216_fb3e070c_a715_4f01_9697_fe753fec15fe.png" xmltv_id="RTV 2">RTV 2</channel>
+  <channel update="i" site="epg.telemach.ba" site_id="853##/2020/04/24/11/01/47/bir_stb_fhd_300x168.png" xmltv_id="RTV BIR HD">RTV BIR HD</channel>
   <channel update="i" site="mts.rs.E" site_id="573##444" xmltv_id="Novi Pazar">RTV Novi Pazar</channel>
+  <channel update="i" site="klix.ba" site_id="73" xmltv_id="RTV USK">RTV USK</channel>
   <channel update="i" site="mtel.ba" site_id="351##805" xmltv_id="SAT.1">SAT.1</channel>
   <channel update="i" site="mts.rs.E" site_id="251##280" xmltv_id="Sci Fi (SR)">Sci Fi</channel>
   <channel update="i" site="a1.hr" site_id="169##sci_fi/1351-4-cro-HR/sci_fi.png" xmltv_id="Sci Fi (HR)">SCI FI</channel>
@@ -210,10 +241,13 @@
   <channel update="i" site="maxtv.hr" site_id="442" xmltv_id="TV1000 (HR)">TV 1000</channel>
   <channel update="i" site="mts.rs.E" site_id="610##309" xmltv_id="Belle Amie">TV Belle Amie</channel>
   <channel update="i" site="mts.rs.E" site_id="458##602" xmltv_id="TV Duga Plus">TV Duga plus </channel>
+  <channel update="i" site="mts.rs.E" site_id="581##483" xmltv_id="TV Podrinje">TV Podrinje</channel>
   <channel update="i" site="maxtv.hr" site_id="283" xmltv_id="SLO 1">TV SLO 1</channel>
   <channel update="i" site="maxtv.hr" site_id="287" xmltv_id="SLO 2">TV SLO 2</channel>
   <channel update="i" site="mojtv.hr" site_id="221/tv-slovenija-3" xmltv_id="SLO 3">TV Slovenija 3</channel>
   <channel update="i" site="mts.rs.E" site_id="219##107" xmltv_id="TV1000 (SR)">TV1000</channel>
+  <channel update="i" site="epg.telemach.ba" site_id="552##/2020/05/28/13/11/17/tv5_logo_16_9_light_300x168_149096d8_7c7b_4956_a6d5_a8d95569e3b2.png" xmltv_id="TV5 (BH)">TV5 (BH)</channel>
+  <channel update="i" site="klix.ba" site_id="78" xmltv_id="TVSA">TVSA</channel>
   <channel update="i" site="mtel.ba" site_id="171##603" xmltv_id="VH1">VH1</channel>
   <channel update="i" site="mts.rs.E" site_id="357##137" xmltv_id="Viasat Explore (SR)">Viasat Explore</channel>
   <channel update="i" site="maxtv.hr" site_id="706" xmltv_id="Viasat Explore (HR)">Viasat Explore HD</channel>
