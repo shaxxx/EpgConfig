@@ -1,2 +1,4 @@
 ConfigMaker.log
 output/*
+configurations/**/robots
+configurations/**/*.txt
