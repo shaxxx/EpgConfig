@@ -66,7 +66,7 @@ jobs:
     displayName: Publish result
     continueOnError: false  # 'true' if future steps should run even if this step fails; defaults to 'false'
     enabled: true          # whether or not to run this step; defaults to 'true'
-    timeoutInMinutes: 1  # how long to wait before timing out the task
+    timeoutInMinutes: 5  # how long to wait before timing out the task
     inputs:
       script: >-
         E:
